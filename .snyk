@@ -1,0 +1,48 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - makeRequest > request > extend:
+        patched: '2022-10-05T20:51:11.093Z'
+    - json-refs > path-loader > superagent > extend:
+        patched: '2022-10-05T20:51:11.093Z'
+    - sway > json-refs > path-loader > superagent > extend:
+        patched: '2022-10-05T20:51:11.093Z'
+    - api-spec-converter > sway > json-refs > path-loader > superagent > extend:
+        patched: '2022-10-05T20:51:11.093Z'
+  'npm:hoek:20180212':
+    - makeRequest > request > hawk > hoek:
+        patched: '2022-10-05T20:51:11.093Z'
+    - makeRequest > request > hawk > boom > hoek:
+        patched: '2022-10-05T20:51:11.093Z'
+    - makeRequest > request > hawk > sntp > hoek:
+        patched: '2022-10-05T20:51:11.093Z'
+    - makeRequest > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-05T20:51:11.093Z'
+  SNYK-JS-LODASH-567746:
+    - sway > lodash:
+        patched: '2022-10-05T20:51:11.093Z'
+    - api-spec-converter > lodash:
+        patched: '2022-10-05T20:51:11.093Z'
+    - json-refs > lodash:
+        patched: '2022-10-05T20:51:11.093Z'
+    - api-spec-converter > google-discovery-to-swagger > lodash:
+        patched: '2022-10-05T20:51:11.093Z'
+    - api-spec-converter > raml-to-swagger > lodash:
+        patched: '2022-10-05T20:51:11.093Z'
+    - sway > json-refs > lodash:
+        patched: '2022-10-05T20:51:11.093Z'
+    - api-spec-converter > sway > lodash:
+        patched: '2022-10-05T20:51:11.093Z'
+    - json-refs > graphlib > lodash:
+        patched: '2022-10-05T20:51:11.093Z'
+    - opencollective > inquirer > lodash:
+        patched: '2022-10-05T20:51:11.093Z'
+    - sway > json-refs > graphlib > lodash:
+        patched: '2022-10-05T20:51:11.093Z'
+    - api-spec-converter > sway > json-refs > lodash:
+        patched: '2022-10-05T20:51:11.093Z'
+    - api-spec-converter > sway > json-refs > graphlib > lodash:
+        patched: '2022-10-05T20:51:11.093Z'
